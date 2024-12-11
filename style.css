@@ -1,0 +1,44 @@
+body{
+    background-color:hsl(220, 16%, 96%);
+    margin: 0 0;
+}
+header{
+    background-color: hsl(0, 0%, 100%) ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 0 10px 0 ;  
+     
+}
+.desktop-nav{
+    display: flex;
+    gap: 30px;    
+}
+a{
+    text-decoration: none;
+}
+button{
+    height: 40px;
+    width: 180px;
+    background-color:hsl(136, 65%, 51%) ;
+    border: none;
+    border-radius: 30px;
+}
+.parent-container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.text-content{
+    padding: 50px 50px 50px 50px;
+}
+.image-content{
+    background-image:url('images/bg-intro-desktop.svg') ;
+    
+}
+.mockups{
+    position: relative;
+    width: 700px;
+    left: 200px;
+}
+
